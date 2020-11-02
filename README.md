@@ -1,4 +1,4 @@
-[![MEAN.JS Logo](https://dotnet.microsoft.com/static/images/redesign/downloads-dot-net-core.svg?v=U_8I9gzFF2Cqi5zUNx-kHJuou_BWNurkhN_kSm3mCmo)](http://meanjs.org/)
+[![.NET Core Logo](https://dotnet.microsoft.com/static/images/redesign/downloads-dot-net-core.svg?v=U_8I9gzFF2Cqi5zUNx-kHJuou_BWNurkhN_kSm3mCmo)](http://meanjs.org/)
 
 This project allow you to start with .NET project.
 
@@ -13,7 +13,7 @@ Make sure you have installed all of the following prerequisites on your developm
 $ dotnet --info
 ```
 You should have 3.1 .NET Core SDKs installed.
-### Clone The GitHub Repository
+### Clone the GitHub Repository
 ```bash
 $ git clone https://github.com/bosseludovic/students-union.git
 ```
@@ -32,12 +32,15 @@ $ cd cesi-students-union
 ```bash
 $ dotnet run
 ```
+You can now browse to your first route
 https://localhost:5001/weatherforecast
 
 ## Unit tests
 https://docs.microsoft.com/fr-fr/dotnet/core/testing/unit-testing-with-dotnet-test
 ### Create a unit test project
+Make sure you're in the root directory
 ```bash
+$ cd ..
 $ dotnet new xunit -o cesi-students-union.Tests
 ```
 
@@ -53,11 +56,13 @@ https://github.com/nlog/NLog/wiki/Configuration-file
 
 ## Swagger
 
-Swashbuckle
+### Swashbuckle
 
 https://docs.microsoft.com/fr-fr/aspnet/core/tutorials/getting-started-with-swashbuckle?view=aspnetcore-3.1&tabs=visual-studio
 
-Install-Package Swashbuckle.AspNetCore -Version 5.5.0
+```bash
+ps> Install-Package Swashbuckle.AspNetCore -Version 5.5.0
+```
 
 ## Persistence
 

@@ -19,6 +19,7 @@ git clone https://github.com/bosseludovic/students-union.git
 cd students-union
 ```
 ## Create new solution
+The solution is the projects container. [Solutions and projects in Visual Studio](https://docs.microsoft.com/en-us/visualstudio/ide/solutions-and-projects-in-visual-studio?view=vs-2019)
 ```batch
 dotnet new sln -n cesi-students-union
 ```

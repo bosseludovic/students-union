@@ -34,7 +34,7 @@ https://localhost:5001/weatherforecast
 ```batch
 git clone https://github.com/bosseludovic/students-union.git && cd students-union
 dotnet new webAPI -o cesi-students-union -n cesi-students-union && cd cesi-students-union
-dotnet run && start chrome https://localhost:5001/weatherforecast
+dotnet run
 ```
 
 # Start developing

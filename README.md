@@ -1,6 +1,6 @@
 [![.NET Core Logo](https://dotnet.microsoft.com/static/images/redesign/downloads-dot-net-core.svg?v=U_8I9gzFF2Cqi5zUNx-kHJuou_BWNurkhN_kSm3mCmo)](http://meanjs.org/)
 
-This project allow you to start with .NET project.
+This project is as start point with .NET framework.
 
 ## Prerequisites
 Make sure you have installed all of the following prerequisites on your development machine:

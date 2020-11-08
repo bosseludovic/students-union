@@ -18,9 +18,15 @@ You should have 3.1 .NET Core SDKs installed.
 git clone https://github.com/bosseludovic/students-union.git
 cd students-union
 ```
-## Create new web API project
+## Create new solution
 ```batch
+dotnet new sln -n cesi-students-union
+```
+## Create new web API project and add it to the solution
+```batch
+dotnet new sln -n cesi-students-union
 dotnet new webAPI -o cesi-students-union -n cesi-students-union
+dotnet sln add ./cesi-students-union/cesi-students-union.csproj
 cd cesi-students-union
 ```
 ## Run the API
@@ -33,18 +39,24 @@ https://localhost:5001/weatherforecast
 ## Want to run all in once?
 ```batch
 git clone https://github.com/bosseludovic/students-union.git && cd students-union
-dotnet new webAPI -o cesi-students-union -n cesi-students-union && cd cesi-students-union
+dotnet new sln -n cesi-students-union
+dotnet new webAPI -o cesi-students-union -n cesi-students-union
+dotnet sln add ./cesi-students-union/cesi-students-union.csproj
+cd cesi-students-union
 dotnet run
 ```
 
 # Start developing
 ## Unit tests
 https://docs.microsoft.com/fr-fr/dotnet/core/testing/unit-testing-with-dotnet-test
-### Create a unit test project
+### Create a unit test project and add it to the solution
 Make sure you're in the root directory
 ```batch
 cd ..
-dotnet new xunit -o cesi-students-union.Tests
+```
+```batch
+dotnet new xunit -o cesi-students-union.Tests -n cesi-students-union.Tests
+dotnet sln add ./cesi-students-union.Tests/cesi-students-union.Tests.csproj
 ```
 
 ## Nuget
@@ -58,9 +70,7 @@ Install-Package NLog.Web.AspNetCore
 https://github.com/nlog/NLog/wiki/Configuration-file    
 
 ## Swagger
-
 ### Swashbuckle
-
 https://docs.microsoft.com/fr-fr/aspnet/core/tutorials/getting-started-with-swashbuckle?view=aspnetcore-3.1&tabs=visual-studio
 
 ```batch
@@ -68,7 +78,6 @@ Install-Package Swashbuckle.AspNetCore -Version 5.5.0
 ```
 
 ## Persistence
-
 ```batch
 Install-Package Microsoft.EntityFrameworkCore.SqlServer
 Install-Package Microsoft.EntityFrameworkCore.InMemory

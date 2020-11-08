@@ -13,7 +13,7 @@ Make sure you have installed all of the following prerequisites on your developm
 dotnet --info
 ```
 You should have 3.1 .NET Core SDKs installed.
-## Clone the GitHub Repository
+## Clone the GitHub Repository and move to the created directory
 ```batch
 git clone https://github.com/bosseludovic/students-union.git
 cd students-union

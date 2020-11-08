@@ -57,6 +57,7 @@ cd ..
 ```
 ```batch
 dotnet new xunit -o cesi-students-union.Tests -n cesi-students-union.Tests
+dotnet add ./cesi-students-union.Tests/cesi-students-union.Tests.csproj reference ./cesi-students-union/cesi-students-union.csproj
 dotnet sln add ./cesi-students-union.Tests/cesi-students-union.Tests.csproj
 ```
 

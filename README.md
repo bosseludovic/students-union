@@ -47,7 +47,7 @@ cd cesi-students-union
 dotnet run
 ```
 
-# Start developing
+# Start Coding
 ## Unit tests
 https://docs.microsoft.com/fr-fr/dotnet/core/testing/unit-testing-with-dotnet-test
 ### Create a unit test project and add it to the solution

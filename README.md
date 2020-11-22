@@ -7,12 +7,13 @@ Make sure you have installed all of the following prerequisites on your developm
 * Visual Studio Community 2019 (https://visualstudio.microsoft.com/fr/downloads/)
 * .NET Core 3.1 SDK (https://dotnet.microsoft.com/download/)
 
-# Quick Start
 ## Check you version of dotnet CLI
 ```batch
 dotnet --info
 ```
-You should have 3.1 .NET Core SDKs installed.
+You should have 3.1 .NET Core SDK installed.
+
+# Quick Start
 ## Clone the GitHub Repository and move to the created directory
 ```batch
 git clone https://github.com/bosseludovic/students-union.git

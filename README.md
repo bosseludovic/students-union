@@ -94,6 +94,11 @@ Install-Package Microsoft.EntityFrameworkCore.InMemory
 Open the SQL server objects (View > SQL Server Object Explorer)
 Create a new database.
 
+Work with EF Core:
+https://docs.microsoft.com/fr-fr/ef/core/
+
+
+
 ### DbContext
 https://github.com/rowanmiller/UnicornStore/blob/master/UnicornStore/src/UnicornStore/Models/UnicornStore/UnicornStoreContext.cs
 

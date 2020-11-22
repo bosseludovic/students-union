@@ -15,7 +15,7 @@ You should have 3.1 .NET Core SDK installed.
 
 # Quick Start
 ## Clone the GitHub repository and move to the created directory
-```batch
+```bat
 git clone https://github.com/bosseludovic/students-union.git && cd students-union
 ```
 ## Create new solution

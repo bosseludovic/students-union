@@ -91,6 +91,9 @@ Install-Package Microsoft.EntityFrameworkCore.SqlServer
 Install-Package Microsoft.EntityFrameworkCore.InMemory
 ```
 
+Open the SQL server objects (View > SQL Server Object Explorer)
+Create a new database.
+
 ### DbContext
 https://github.com/rowanmiller/UnicornStore/blob/master/UnicornStore/src/UnicornStore/Models/UnicornStore/UnicornStoreContext.cs
 

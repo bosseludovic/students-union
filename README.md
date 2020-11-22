@@ -97,6 +97,8 @@ Create a new database.
 Work with EF Core:
 https://docs.microsoft.com/fr-fr/ef/core/
 
+Create Models:
+https://docs.microsoft.com/fr-fr/aspnet/core/data/ef-rp/intro?view=aspnetcore-5.0&tabs=visual-studio
 
 
 ### DbContext

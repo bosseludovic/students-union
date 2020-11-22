@@ -61,6 +61,9 @@ dotnet add ./cesi-students-union.Tests/cesi-students-union.Tests.csproj referenc
 dotnet sln add ./cesi-students-union.Tests/cesi-students-union.Tests.csproj
 ```
 
+## Visual Studio
+It's time to lauch Visual Studio! You can either run Visual Studio exe and then open you sln file or directly run the sln file with associated program.
+
 ## Nuget
 ### Add NLog
 https://github.com/NLog/NLog/wiki/Getting-started-with-ASP.NET-Core-3

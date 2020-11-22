@@ -14,7 +14,7 @@ dotnet --info
 You should have 3.1 .NET Core SDK installed.
 
 # Quick Start
-## Clone the GitHub Repository and move to the created directory
+## Clone the GitHub repository and move to the created directory
 ```batch
 git clone https://github.com/bosseludovic/students-union.git
 cd students-union

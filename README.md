@@ -65,7 +65,7 @@ dotnet sln add ./cesi-students-union.Tests/cesi-students-union.Tests.csproj
 It's time to lauch Visual Studio! You can either run Visual Studio exe and then open you solution file (.sln) or directly run the solution file (.sln) with associated program.
 
 ## Nuget
-It's the .NET package manager: https://docs.microsoft.com/fr-fr/nuget/quickstart/install-and-use-a-package-in-visual-studio
+It's the .NET package manager: https://docs.microsoft.com/fr-fr/nuget/quickstart/install-and-use-a-package-in-visual-studio .
 You can even add package with the nuget package manager or the package manager console.
 
 ### Add NLog

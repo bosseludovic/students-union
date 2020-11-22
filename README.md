@@ -62,7 +62,7 @@ dotnet sln add ./cesi-students-union.Tests/cesi-students-union.Tests.csproj
 ```
 
 ## Visual Studio
-It's time to lauch Visual Studio! You can either run Visual Studio exe and then open you sln file or directly run the sln file with associated program.
+It's time to lauch Visual Studio! You can either run Visual Studio exe and then open you solution file (.sln) or directly run the solution file (.sln) with associated program.
 
 ## Nuget
 ### Add NLog

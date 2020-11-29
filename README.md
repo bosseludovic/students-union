@@ -5,13 +5,14 @@ This project is as start point with .NET framework.
 # Prerequisites
 Make sure you have installed all of the following prerequisites on your development machine:
 * Visual Studio Community 2019 (https://visualstudio.microsoft.com/fr/downloads/)
-* .NET Core 3.1 SDK (https://dotnet.microsoft.com/download/)
+* .NET 5 SDK (https://dotnet.microsoft.com/download/dotnet/5.0)
 
 ## Check you version of dotnet CLI
 ```batch
+dotnet --version
 dotnet --info
 ```
-You should have 3.1 .NET Core SDK installed.
+You should have .NET Core SDK 5 installed.
 
 # Quick Start
 ## Clone the GitHub repository and move to the created directory
@@ -25,7 +26,6 @@ dotnet new sln -n cesi-students-union
 ```
 ## Create new web API project and add it to the solution
 ```batch
-dotnet new sln -n cesi-students-union
 dotnet new webAPI -o cesi-students-union -n cesi-students-union
 dotnet sln add ./cesi-students-union/cesi-students-union.csproj
 cd cesi-students-union

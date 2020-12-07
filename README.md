@@ -105,6 +105,7 @@ https://docs.microsoft.com/fr-fr/aspnet/core/data/ef-rp/intro?view=aspnetcore-5.
 https://github.com/rowanmiller/UnicornStore/blob/master/UnicornStore/src/UnicornStore/Models/UnicornStore/UnicornStoreContext.cs
 
 ## LINQ
+Create a filter on a collection then sort it using linq.
 
 ## Dockerfile
 https://docs.docker.com/engine/examples/dotnetcore/

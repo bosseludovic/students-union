@@ -94,6 +94,7 @@ Install-Package Microsoft.EntityFrameworkCore.InMemory
 Open the SQL server objects (View > SQL Server Object Explorer)
 Create a new database.
 
+### ORM
 Work with EF Core:
 https://docs.microsoft.com/fr-fr/ef/core/
 
